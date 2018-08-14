@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81737D842122BA12008070A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81737D832122BA12008070A1 /* AppDelegate.swift */; };
+		81737D862122BA12008070A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81737D852122BA12008070A1 /* ViewController.swift */; };
+		81737D892122BA12008070A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81737D872122BA12008070A1 /* Main.storyboard */; };
+		81737D8C2122BA12008070A1 /* JenkinPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81737D8A2122BA12008070A1 /* JenkinPro.xcdatamodeld */; };
+		81737D8E2122BA12008070A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81737D8D2122BA12008070A1 /* Assets.xcassets */; };
+		81737D912122BA12008070A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81737D8F2122BA12008070A1 /* LaunchScreen.storyboard */; };
+		81737D9C2122BA12008070A1 /* JenkinProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81737D9B2122BA12008070A1 /* JenkinProTests.swift */; };
+		81737DA72122BA12008070A1 /* JenkinProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81737DA62122BA12008070A1 /* JenkinProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81737D982122BA12008070A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81737D782122BA11008070A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81737D7F2122BA12008070A1;
+			remoteInfo = JenkinPro;
+		};
+		81737DA32122BA12008070A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81737D782122BA11008070A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81737D7F2122BA12008070A1;
+			remoteInfo = JenkinPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81737D802122BA12008070A1 /* JenkinPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81737D832122BA12008070A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81737D852122BA12008070A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81737D882122BA12008070A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81737D8B2122BA12008070A1 /* JenkinPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JenkinPro.xcdatamodel; sourceTree = "<group>"; };
+		81737D8D2122BA12008070A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81737D902122BA12008070A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81737D922122BA12008070A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81737D972122BA12008070A1 /* JenkinProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81737D9B2122BA12008070A1 /* JenkinProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinProTests.swift; sourceTree = "<group>"; };
+		81737D9D2122BA12008070A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81737DA22122BA12008070A1 /* JenkinProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81737DA62122BA12008070A1 /* JenkinProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinProUITests.swift; sourceTree = "<group>"; };
+		81737DA82122BA12008070A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81737D7D2122BA12008070A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81737D942122BA12008070A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81737D9F2122BA12008070A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81737D772122BA11008070A1 = {
+			isa = PBXGroup;
+			children = (
+				81737D822122BA12008070A1 /* JenkinPro */,
+				81737D9A2122BA12008070A1 /* JenkinProTests */,
+				81737DA52122BA12008070A1 /* JenkinProUITests */,
+				81737D812122BA12008070A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81737D812122BA12008070A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81737D802122BA12008070A1 /* JenkinPro.app */,
+				81737D972122BA12008070A1 /* JenkinProTests.xctest */,
+				81737DA22122BA12008070A1 /* JenkinProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81737D822122BA12008070A1 /* JenkinPro */ = {
+			isa = PBXGroup;
+			children = (
+				81737D832122BA12008070A1 /* AppDelegate.swift */,
+				81737D852122BA12008070A1 /* ViewController.swift */,
+				81737D872122BA12008070A1 /* Main.storyboard */,
+				81737D8D2122BA12008070A1 /* Assets.xcassets */,
+				81737D8F2122BA12008070A1 /* LaunchScreen.storyboard */,
+				81737D922122BA12008070A1 /* Info.plist */,
+				81737D8A2122BA12008070A1 /* JenkinPro.xcdatamodeld */,
+			);
+			path = JenkinPro;
+			sourceTree = "<group>";
+		};
+		81737D9A2122BA12008070A1 /* JenkinProTests */ = {
+			isa = PBXGroup;
+			children = (
+				81737D9B2122BA12008070A1 /* JenkinProTests.swift */,
+				81737D9D2122BA12008070A1 /* Info.plist */,
+			);
+			path = JenkinProTests;
+			sourceTree = "<group>";
+		};
+		81737DA52122BA12008070A1 /* JenkinProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81737DA62122BA12008070A1 /* JenkinProUITests.swift */,
+				81737DA82122BA12008070A1 /* Info.plist */,
+			);
+			path = JenkinProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81737D7F2122BA12008070A1 /* JenkinPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81737DAB2122BA12008070A1 /* Build configuration list for PBXNativeTarget "JenkinPro" */;
+			buildPhases = (
+				81737D7C2122BA12008070A1 /* Sources */,
+				81737D7D2122BA12008070A1 /* Frameworks */,
+				81737D7E2122BA12008070A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinPro;
+			productName = JenkinPro;
+			productReference = 81737D802122BA12008070A1 /* JenkinPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81737D962122BA12008070A1 /* JenkinProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81737DAE2122BA12008070A1 /* Build configuration list for PBXNativeTarget "JenkinProTests" */;
+			buildPhases = (
+				81737D932122BA12008070A1 /* Sources */,
+				81737D942122BA12008070A1 /* Frameworks */,
+				81737D952122BA12008070A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81737D992122BA12008070A1 /* PBXTargetDependency */,
+			);
+			name = JenkinProTests;
+			productName = JenkinProTests;
+			productReference = 81737D972122BA12008070A1 /* JenkinProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81737DA12122BA12008070A1 /* JenkinProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81737DB12122BA12008070A1 /* Build configuration list for PBXNativeTarget "JenkinProUITests" */;
+			buildPhases = (
+				81737D9E2122BA12008070A1 /* Sources */,
+				81737D9F2122BA12008070A1 /* Frameworks */,
+				81737DA02122BA12008070A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81737DA42122BA12008070A1 /* PBXTargetDependency */,
+			);
+			name = JenkinProUITests;
+			productName = JenkinProUITests;
+			productReference = 81737DA22122BA12008070A1 /* JenkinProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81737D782122BA11008070A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Perennial;
+				TargetAttributes = {
+					81737D7F2122BA12008070A1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					81737D962122BA12008070A1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81737D7F2122BA12008070A1;
+					};
+					81737DA12122BA12008070A1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81737D7F2122BA12008070A1;
+					};
+				};
+			};
+			buildConfigurationList = 81737D7B2122BA11008070A1 /* Build configuration list for PBXProject "JenkinPro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81737D772122BA11008070A1;
+			productRefGroup = 81737D812122BA12008070A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81737D7F2122BA12008070A1 /* JenkinPro */,
+				81737D962122BA12008070A1 /* JenkinProTests */,
+				81737DA12122BA12008070A1 /* JenkinProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81737D7E2122BA12008070A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81737D912122BA12008070A1 /* LaunchScreen.storyboard in Resources */,
+				81737D8E2122BA12008070A1 /* Assets.xcassets in Resources */,
+				81737D892122BA12008070A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81737D952122BA12008070A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81737DA02122BA12008070A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81737D7C2122BA12008070A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81737D862122BA12008070A1 /* ViewController.swift in Sources */,
+				81737D8C2122BA12008070A1 /* JenkinPro.xcdatamodeld in Sources */,
+				81737D842122BA12008070A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81737D932122BA12008070A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81737D9C2122BA12008070A1 /* JenkinProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81737D9E2122BA12008070A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81737DA72122BA12008070A1 /* JenkinProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81737D992122BA12008070A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81737D7F2122BA12008070A1 /* JenkinPro */;
+			targetProxy = 81737D982122BA12008070A1 /* PBXContainerItemProxy */;
+		};
+		81737DA42122BA12008070A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81737D7F2122BA12008070A1 /* JenkinPro */;
+			targetProxy = 81737DA32122BA12008070A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81737D872122BA12008070A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81737D882122BA12008070A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81737D8F2122BA12008070A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81737D902122BA12008070A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81737DA92122BA12008070A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81737DAA2122BA12008070A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81737DAC2122BA12008070A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QAD9449BNE;
+				INFOPLIST_FILE = JenkinPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81737DAD2122BA12008070A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QAD9449BNE;
+				INFOPLIST_FILE = JenkinPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81737DAF2122BA12008070A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinPro.app/JenkinPro";
+			};
+			name = Debug;
+		};
+		81737DB02122BA12008070A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinPro.app/JenkinPro";
+			};
+			name = Release;
+		};
+		81737DB22122BA12008070A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinPro;
+			};
+			name = Debug;
+		};
+		81737DB32122BA12008070A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perennial.JenkinProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JenkinPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81737D7B2122BA11008070A1 /* Build configuration list for PBXProject "JenkinPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81737DA92122BA12008070A1 /* Debug */,
+				81737DAA2122BA12008070A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81737DAB2122BA12008070A1 /* Build configuration list for PBXNativeTarget "JenkinPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81737DAC2122BA12008070A1 /* Debug */,
+				81737DAD2122BA12008070A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81737DAE2122BA12008070A1 /* Build configuration list for PBXNativeTarget "JenkinProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81737DAF2122BA12008070A1 /* Debug */,
+				81737DB02122BA12008070A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81737DB12122BA12008070A1 /* Build configuration list for PBXNativeTarget "JenkinProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81737DB22122BA12008070A1 /* Debug */,
+				81737DB32122BA12008070A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81737D8A2122BA12008070A1 /* JenkinPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81737D8B2122BA12008070A1 /* JenkinPro.xcdatamodel */,
+			);
+			currentVersion = 81737D8B2122BA12008070A1 /* JenkinPro.xcdatamodel */;
+			path = JenkinPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81737D782122BA11008070A1 /* Project object */;
+}
